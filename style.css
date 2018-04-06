@@ -1,0 +1,139 @@
+/*CLASSES pt.1*/
+.main-header{
+  background-color: teal;
+  border-color: black;
+  color: white;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  height: fixed;
+  width: fixed;
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+/*CLASSES pt.2*/
+
+.main{
+  background-color: #DCDCDC;
+  margin: -10px;
+  color: #000080;
+}
+
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.image{
+  float: right;
+  max-width: 170px;
+  max-height: 170px;
+}
+
+/* .smitestuff{
+  position: absolute;
+} */
+
+/*A LINK TO THE PAST*/
+
+a:visited{
+  color: grey;
+  text-shadow: grey 0.1em 0.1em 0.2em;
+}
+
+/*ID's*/
+
+#middle{
+  color: #3CB371;
+}
+
+#ol{
+  color: #000080;
+  padding-left: 40px;
+}
+
+#res{
+  text-align: left;
+  color: red;
+}
+
+#git{
+  text-align: left;
+  color: blue;
+}
+
+#smiteheader{
+  text-align: center;
+  font-size: 2em;
+  color: black;
+}
+
+#head{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#lunk{
+  padding-left: 10px;
+}
+
+#article{
+  padding-left: 20px;
+}
+
+#how{
+  color: purple;
+}
+
+#smiteheader{
+  padding-left: 5px;
+}
+
+#best{
+  text-decoration: underline;
+}
+
+#footer{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  color: black;
+}
+
+/*IMAGE PROPERTIES'N STUFF'*/
+
+img{
+  padding-right: 10px;
+  margin-left: -10px;
+}
+
+
+/*QUERIES*/
+
+@media only screen and (min-width: 0px),
+       only screen and (max-width: 768px){
+
+  .title{
+    float: left;
+    font-size: 1.4em;
+  }
+
+  .image{
+    float: left;
+    width: 25%;
+    height: 25%;
+  }
+}
+
+/*QUERY FOR LARGE SCREENS*/
+.image{
+@media (min-width: 800px){
+
+  }
+}
